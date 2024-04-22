@@ -1,4 +1,5 @@
 package classes;
+import classes.Order;
 public  class Cart {
   public int nProducts;
   public Product[] products;
@@ -17,7 +18,7 @@ public  class Cart {
   }
   public float calculatePrice () {
     float total = 0f;
-    for (int i = 0; i < nProducts; i++) {
+    for (int i = 0; i < products.length; i++) {
       total = total + products[i].getPrice();
       
     }
@@ -37,7 +38,10 @@ public  class Cart {
 
 
   public void placeOrder() {
+
     
+      Order order1 = new Order(getCustomerId(), 1 , products, calculatePrice());
+      order1.printOrderInfo();
   }
   //setters and getters
   public void setCustomerId(int customerId) {
