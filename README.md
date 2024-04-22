@@ -1,4 +1,4 @@
-The program is in main, all the 7 other classes is in classes/ directory.
+The program is in main, all the 7 other classes is in classes/ directory. \n
 Note: must have jdk-22 / Java SE 22 or newer for the code to work properly.
 ![Screenshot_547](https://github.com/DomeFrex/java-project/assets/62183743/83f95d34-e73c-48d5-a075-0c0547319bd2)
 ![Screenshot_548](https://github.com/DomeFrex/java-project/assets/62183743/7ef93afa-0bc0-4fbb-9689-195166eaf465)
